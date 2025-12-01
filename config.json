@@ -1,0 +1,47 @@
+{
+  "_comment": "تنظیمات PMS Auto-Updater - نسخه 1.0.0",
+
+  "files": {
+    "pms": {
+      "file": "PMS-paint REV-03H.xlsx",
+      "sheet": "1404.01.22"
+    },
+    "pnt": {
+      "file": "PNT-G.xlsx",
+      "sheet": " المان PNT-G-130"
+    },
+    "cache": {
+      "enabled": true,
+      "file": "pms_cache.json"
+    }
+  },
+
+  "axis": {
+    "range_start": 19,
+    "range_end": 46
+  },
+
+  "columns": {
+    "pnt": {
+      "item": 3,
+      "quantity": 9,
+      "m_value": 13,
+      "g2_cell": "G2",
+      "row_auto": true,
+      "axis_search": [3, 4, 5]
+    },
+    "pms": {
+      "text": 1,
+      "date": 5,
+      "g": 7,
+      "n": 14
+    }
+  },
+
+  "hierarchy": {
+    "level_1_pattern": "محور",
+    "level_3_text": "GLASS FLAKE",
+    "level_4_text": "بلاست و اماده سازی سطح  و اعمال رنگ  لایه دوم",
+    "target_level": 5
+  }
+}
